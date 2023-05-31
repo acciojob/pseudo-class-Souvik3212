@@ -1,10 +1,12 @@
 /*  your css code here. If applicable */
-p{
-	font-weight:bold;
-}
-.element{
-	color:red;
+div{
 	display:inline;
-	font-size: 20px;
-	
 }
+div::before{
+                content: "Before Element";
+                color: red;
+            }
+            div::after{
+                content: "After Element";
+                color: red;
+            }
